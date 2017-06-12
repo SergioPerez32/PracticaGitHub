@@ -2,9 +2,15 @@ package practica;
 
 public class Auto {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+		String marca;
+		int año;
+		
+		public Auto (String m, int a){
+			marca=m;
+			año=a;
+		}
+		
+		public void descripcion (){
+			System.out.println("Marca: "+marca+" Año: "+año);
+		}
 }
